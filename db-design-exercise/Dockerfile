@@ -1,4 +1,4 @@
-FROM ruby:3.0
+FROM ruby:3.1
 
 # 必要なライブラリのインストール
 RUN apt-get update -qq && apt-get install -y nodejs default-mysql-client
